@@ -1,11 +1,11 @@
 CFLAGS=-std=c11 -g -static
 
-kami: kami.c
+saruta-biko-no-kami: saruta-biko-no-kami.c
 
-test: kami
+test: saruta-biko-no-kami
 	./test.sh
 
 clean:
-	rm -f kami *.o *~ tmp*
+	rm -f saruta-biko-no-kami *.o *~ tmp*
 
 .PHONY: test clean
